@@ -1,0 +1,177 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Library </title>
+    <!-- Font Awesome -->
+    
+    <style type="text/css">
+        
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('../assets/back.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 1.3em;
+    padding-left: 5%;
+    text-align: left;
+    font-family: 'Prata', serif;
+    font-size: 48pt;
+    color: cyan;
+    font-weight: bolder;
+}
+
+.home {
+    margin-right: 10%;
+    padding: 2%;
+    float: right;
+    text-align: right;
+    font-family: 'Prata', serif;
+    font-size: x-large;
+    color: #eee;
+}
+.home a{
+    text-decoration: none;
+    color: inherit;
+}
+.containers {
+    align-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 3%;
+}
+
+.card {
+    border-radius: 3.5%;
+    padding: 0;
+    font-size: 1.2em;
+    color: #111;
+}
+    </style>
+    <!-- JQuery -->
+    
+</head>
+    <div class="body"> 
+        <p class="heading">
+            <span class="heading">
+                <img src="assets/material.svg" height="64px" width="64px" alt="study material" />
+                Study Materials
+            </span>
+            <span class="home">
+                <a href='#!/'> Home </a>
+            </span>
+        </p>
+        
+        <div class="containers">
+            <!-- Card -->
+            <div class="card">
+                <!-- Card content -->
+                <div class="card-body">
+                
+                    <!-- Title -->
+                    <h2 class="card-title"> Student </h2>
+                </div>  
+
+                <!-- Card image -->
+                <div class="">
+                    <br/>
+                    <img class="card-img-top" src="assets/study.svg" height="128px" width="128px" alt="student">
+                    <a href="assets/student alpha.zip">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+        
+                <div class="card-body">
+                    <!-- Text -->
+                    <p class="card-text">For students following the usual trend and behaviour </p>
+                    <p class="card-text">A student is primarily a person enrolled in a school or other educational institution who attends classes in a course to attain the appropriate level of mastery of a subject under the guidance of an instructor and who devotes time outside class to do whatever activities.</p>
+                    <!-- Button -->
+                 
+                    <span ng-click="downloadAttachment('documents/abled_materials.rar')" class="btn btn-primary"> Download </span>
+        
+                </div>
+        
+            </div>
+            <!-- Card -->
+        
+            <!-- Card -->
+            <div class="card">
+        
+                <!-- Card content -->
+                <div class="card-body">
+                
+                    <!-- Title -->
+                    <h2 class="card-title"> Differently Abled Students </h2>
+
+                </div>
+
+                <!-- Card image -->
+                <div class="">
+                    <br/>
+                    <img class="card-img-top" src="assets/disabled.svg" height="128px" width="128px" alt="challenged">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+        
+                <div class="card-body">
+                    <!-- Text -->
+                    <p class="card-text"> A strategic guide for the differently abled people </p>
+                    <p class="card-text">Disability is a contested concept, with different meanings in different communities. It may be used to refer to physical or mental attributes that some institutions, particularly medicine, view as needing to be fixed (the medical model). It may refer to limitations imposed on people by the constraints of an ableist society (the social model).</p>
+                    <!-- Button -->
+                    <span ng-click="downloadAttachment('documents/disabled_materials.rar')" class="btn btn-primary"> Download </span>
+        
+                </div>
+        
+            </div>
+            <!-- Card -->
+        
+            <!-- Card -->
+            <div class="card">
+                <!-- Card content -->
+                <div class="card-body">
+        
+                    <!-- Title -->
+                    <h2 class="card-title"> Slow Learners</h2>
+        
+                </div>
+        
+                <!-- Card image -->
+                <div class="">
+                    <br />
+                    <img class="card-img-top" src="assets/ideas.svg" height="128px" width="16px" alt="slow-learners">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+        
+                <div class="card-body">
+                    <!-- Text -->
+                    <p class="card-text">A specalized way to teach the slow learning students at thier own pace </p>
+                    <p class="card-text">A slow learner is a child who learns at a pace a little behind others of their age and grade level. Slow learners are not always learning disabled, and may have ordinary lives outside of the classroom. </p>
+                    <!-- Button -->
+                      <span ng-click="downloadAttachment('documents/slow_learner_materials.rar')" class="btn btn-primary"> Download </span>
+                   
+        
+                </div>
+        
+            </div>
+            <!-- Card -->
+        </div>
+    </div>
