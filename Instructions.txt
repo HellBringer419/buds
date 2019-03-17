@@ -1,4 +1,5 @@
-1. In buds-wep laravel project is present
+//run web project
+1. In buds-web laravel project is present
 2.Run composer update
 'composer update'
 3.copy .env.example as .env
