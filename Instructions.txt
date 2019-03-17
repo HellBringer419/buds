@@ -1,0 +1,15 @@
+1. In buds-wep laravel project is present
+2.Run composer update
+'composer update'
+3.copy .env.example as .env
+4.change the database host and data base name and give email and password for the smtp
+5. generate key 
+php artisan key:generate
+6.run the server 
+php artisan serve
+
+
+//for python api
+1. Go to python api folder
+2.open command prompt here
+3. run 'python api.py' to start python server
